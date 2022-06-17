@@ -10,13 +10,13 @@ XXXXX
 ## Примеры
 
 <p float="left">
-<img src="https://github.com/Stergrim/Solving-the-phase-problem/blob/main/demos/StartModelVisual.png" width="300" />
-<img src="https://github.com/Stergrim/Solving-the-phase-problem/blob/main/demos/RestoredModelVisual.png" width="300" /> 
+<img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/VortexPair.gif" width="300" />
+<img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/VortexPair.png" width="300" /> 
 </p>
 
 ХХХ
 
 <p float="left">
-<img src="https://github.com/Stergrim/Solving-the-phase-problem/blob/main/demos/DifferenceModelVisual.png" width="300" />
-<img src="https://github.com/Stergrim/Solving-the-phase-problem/blob/main/demos/WaveFrontModelVisual.png" width="400" /> 
+<img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/SheetSurface.gif" width="300" />
+<img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/SheetSurface.png" width="400" /> 
 </p>
