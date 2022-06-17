@@ -1,4 +1,4 @@
-function [Coord2Dl,Coord2Dp] = MultiplePassInterrogation(Image1, Image2, SizeWindow, CrossWindow, Iters, Indent, Scale)
+function [CoordStart,CoordEnd] = MultiplePassInterrogation(Image1, Image2, SizeWindow, CrossWindow, Iters, Indent, Scale)
 % The main function of calling the method of mutual correlation on two images
 
 % If the images are three-channel, then convert to black and white
@@ -91,14 +91,14 @@ end
 S = size(X);
 N = S(1)*S(2);
 
-Coord2Dl = zeros(N,2);
-Coord2Dp = zeros(N,2);
+CoordStart = zeros(N,2);
+CoordEnd = zeros(N,2);
 
 for i0 = 1:N
-    Coord2Dl(i0,1) = X(i0);
-    Coord2Dl(i0,2) = Y(i0);
-    Coord2Dp(i0,1) = X(i0) + U(i0);
-    Coord2Dp(i0,2) = Y(i0) + V(i0);
+    CoordStart(i0,1) = X(i0);
+    CoordStart(i0,2) = Y(i0);
+    CoordEnd(i0,1) = X(i0) + U(i0);
+    CoordEnd(i0,2) = Y(i0) + V(i0);
 end
 
 % Image output together with a vector field
