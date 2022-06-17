@@ -4,8 +4,8 @@ function [CoordStart,CoordEnd] = MultiplePassInterrogation(Image1, Image2, SizeW
 % If the images are three-channel, then convert to black and white
 if (size(size(Image1),2) == 3)
     if (size(Image1,3) == 3)
-        [Image1] = FGray(Image1);
-        [Image2] = FGray(Image2);
+        [Image1] = RGBtoGray(Image1);
+        [Image2] = RGBtoGray(Image2);
     end
 end
 
