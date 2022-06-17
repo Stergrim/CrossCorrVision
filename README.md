@@ -18,5 +18,5 @@ XXXXX
 
 <p float="left">
 <img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/SheetSurface.gif" width="300" />
-<img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/SheetSurface.png" width="400" /> 
+<img src="https://github.com/Stergrim/Offset-search-by-the-method-of-cross-correlation/blob/main/demos/SheetSurface.png" width="300" /> 
 </p>
